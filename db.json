@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ronna Ersando",
+      "email": "ronna@yahoo.com",
+      "phone": 9124578964
+    },
+    {
+      "id": 2,
+      "name": "Greg Pinili",
+      "email": "greg@yahoo.com",
+      "phone": 9456321789
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

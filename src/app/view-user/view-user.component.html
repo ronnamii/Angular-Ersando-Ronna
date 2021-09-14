@@ -1,0 +1,47 @@
+<router-outlet></router-outlet>
+<div class="card m-5">
+  <div class="card-body" *ngIf="userData">
+    <div class="row">
+      <div class="col-md-2">
+        <a href="users" class="btn btn-secondary">Back</a>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row">
+      <div class="col-md-2">
+        <b><label for="id">ID:</label></b>
+      </div>
+      <div class="col-md-10">
+            {{ userData.id }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+        <b><label for="name">Full Name:</label></b>
+      </div>
+      <div class="col-md-10">
+            {{ userData.name }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+        <b><label for="email">Email:</label></b>
+      </div>
+      <div class="col-md-10">
+            {{ userData.email }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+        <b><label for="phone">Contact:</label></b>
+      </div>
+      <div class="col-md-10">
+            {{ userData.phone }}
+      </div>
+    </div>
+  </div>
+</div>
